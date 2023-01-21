@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: aliceblue;
+    border: 10px solid #1d1e4c;
+    min-height: 100vh;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto; 
+   
+}
+
+.image_container, img{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: flex-end;
+}
+
+.top_section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+}
+
+.top_section h4{
+    font-size: 20px;
+    text-align: end;
+}
+
+.image_container{
+    background-color: #1d1e4c;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.about_section{
+    margin-top: 100px;
+    
+}
+.about_section h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.about_section p{
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+
+.award_section {
+    margin: 50px 0;
+    
+  }
+.award_section h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+  }
+.award_section ul {
+    margin-left: 50px;
+    
+  }
+.award_section li {
+    margin-bottom: 15px;
+  }
